@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Malgun Gothic', cursive;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 85%;
+    height: auto;
+}
+.card{
+    width: 30%;
+    padding: 25px;
+    border-radius: 25px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transform-style: preserve-3d;
+}
+.card .photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    transform: translateZ(20px);
+}
+.card .photo img{
+    border-radius: 50%;
+}
+.card .name{
+    font-weight: 600;
+    margin: 25px 0;
+    font-size: 32px;
+    font-style: oblique;
+    color: #452c63;
+    transform: translateZ(15px);
+}
+.card .text{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #33006F;
+}
+.card .button{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    transform: translateZ(30px);
+}
